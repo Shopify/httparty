@@ -22,7 +22,7 @@ module HTTParty
     #
     # @example normalize_param(:name, "Bob Jones") #=> "name=Bob%20Jones&"
     def self.normalize_param(key, value)
-      param = ''
+      param = +''
       stack = []
 
       if value.respond_to?(:to_ary)
