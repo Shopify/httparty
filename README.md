@@ -1,3 +1,5 @@
+> **This repository is no longer maintained.** It has been archived by Shopify and receives no updates or security fixes.
+
 # httparty
 
 Makes http fun again!  Ain't no party like a httparty, because a httparty don't stop.
